@@ -1,0 +1,49 @@
+{
+  "name": "graceful-git",
+  "version": "0.0.0",
+  "description": "Executes git commands gracefully. Retries them on errors",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "tape test.js",
+    "md": "mos"
+  },
+  "mos": {
+    "plugins": [
+      "readme"
+    ],
+    "installation": {
+      "useShortAlias": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/graceful-git.git"
+  },
+  "keywords": [
+    "git",
+    "retry",
+    "retries",
+    "exec"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "url": "https://www.kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/graceful-git/issues"
+  },
+  "homepage": "https://github.com/zkochan/graceful-git#readme",
+  "dependencies": {
+    "execa": "^0.6.3",
+    "retry": "^0.10.1"
+  },
+  "devDependencies": {
+    "mos": "^2.0.0-alpha.3",
+    "mos-plugin-readme": "^1.0.4",
+    "tape": "^4.6.3"
+  }
+}
