@@ -1,5 +1,7 @@
 # graceful-git
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zkochan/graceful-git.svg)](https://greenkeeper.io/)
+
 > Executes git commands gracefully. Retries on errors
 
 <!--@shields('npm', 'travis')-->
