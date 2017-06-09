@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/zkochan/graceful-git#readme",
   "dependencies": {
-    "execa": "^0.6.3",
+    "execa": "^0.7.0",
     "retry": "^0.10.1"
   },
   "devDependencies": {
