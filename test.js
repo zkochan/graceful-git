@@ -1,5 +1,5 @@
 'use strict'
-const git = require('.')
+const git = require('graceful-git')
 const test = require('tape')
 
 test('git command successfully completes', t => {
