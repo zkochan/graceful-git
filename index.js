@@ -12,10 +12,11 @@ const RETRY_OPTIONS = {
 }
 
 module.exports = (args, opts) => {
+  opts = opts || {}
   const operation = retry.operation(Object.assign({}, RETRY_OPTIONS, opts))
   return new Promise((resolve, reject) => {
     operation.attempt(currentAttempt => {
-      execGit(args)
+      execGit(args, {cwd: opts.cwd || process.cwd()})
         .then(resolve)
         .catch(err => {
           if (operation.retry(err)) {

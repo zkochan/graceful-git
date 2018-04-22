@@ -1,5 +1,6 @@
 dependencies:
   execa: 0.10.0
+  graceful-git: 'link:../__package_previews__/graceful-git/graceful-git'
   retry: 0.12.0
 devDependencies:
   mos: 2.0.0-alpha.3
@@ -2849,7 +2850,7 @@ packages:
     resolution:
       integrity: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
 registry: 'https://registry.npmjs.org/'
-shrinkwrapMinorVersion: 4
+shrinkwrapMinorVersion: 5
 shrinkwrapVersion: 3
 specifiers:
   execa: ^0.10.0

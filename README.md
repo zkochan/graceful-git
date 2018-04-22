@@ -31,12 +31,13 @@ gracefulGit(['status', 'README.md'])
 
 ## API
 
-### `git(args, [retryOptions]) => Promise`
+### `git(args, [opts]) => Promise`
 
 **Arguments:**
 
 - `args` - _string\[]_ - arguments passed to the Git CLI
-- `retryOptions` - _object_ - optional. Parameters used by [retry](https://www.npmjs.com/package/retry) when git operation fails.
+- `opts.cwd` - _Path_ - the directory in which the Git command should be executed
+- `...opts` - _object_ - optional. Parameters used by [retry](https://www.npmjs.com/package/retry) when git operation fails.
 
 ## License
 
