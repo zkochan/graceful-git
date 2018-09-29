@@ -1,3 +1,5 @@
+> moved to https://github.com/zkochan/packages/tree/master/graceful-git
+
 # graceful-git
 
 > Executes git commands gracefully. Retries on errors
